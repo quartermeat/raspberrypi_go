@@ -13,6 +13,3 @@ sftp $REMOTE_USER@$REMOTE_HOST <<EOF
 put ./bin/myapp-arm64 $REMOTE_PATH
 exit
 EOF
-
-# Run the application on the remote machine
-ssh quartermeat@192.168.0.106 "./app/myapp
