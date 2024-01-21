@@ -1,3 +1,3 @@
-module github.com/quartermeat/scratch
+module github.com/quartermeat/raspberrypi_go
 
-go 1.20
+go 1.19
