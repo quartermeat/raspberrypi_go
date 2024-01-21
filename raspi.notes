@@ -5,7 +5,11 @@ Ideas:
 - Raspberry Pi 3 Model B V1.2
 TODO:
 [√] get datasheet for this
-[x] figure out qemu
-- installing...
+[!] figure out qemu
+- tinker with this later, want to get the app working first, then I'll know exactly what to stub out or implement for QEMU
+[x] hook up bread board to the correct GPIO pins and test out some GPIO libraries in go
 Activity Log:
-
+- got Raspberry Pi 3 hooked up
+- setup dev environment for go in WSL
+- go is installed on Pi
+- added build script to build for target and upload to target
